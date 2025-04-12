@@ -1,4 +1,4 @@
-import useFetch from "../hooks/useFech";
+import useFetch from "../hooks/useFetch";
 import DataHandler from "../utils/DataHandler";
 import Category from "./Category";
 
