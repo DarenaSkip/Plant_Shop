@@ -1,0 +1,48 @@
+/* Frame 61 */
+
+/* Auto layout */
+/*display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 344px;
+height: 333px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(image 15indoor.jpg);
+border-radius: 8px;
+
+/* Inside auto layout */
+/*flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Indoor Plants */
+
+/*width: 328px;
+height: 288px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(52, 52, 52, 0.25);
+
+/* Inside auto layout */
+/*flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
