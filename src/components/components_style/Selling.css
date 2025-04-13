@@ -1,48 +1,60 @@
-/* Frame 61 */
-
-/* Auto layout */
-/*display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px;
-gap: 10px;
-
-width: 344px;
-height: 333px;
-
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(image 15indoor.jpg);
-border-radius: 8px;
-
-/* Inside auto layout */
-/*flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 1;
-
-
-/* Indoor Plants */
-
-/*width: 328px;
-height: 288px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 36px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.2em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-
-text-shadow: 0px 4px 4px rgba(52, 52, 52, 0.25);
-
-/* Inside auto layout */
-/*flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 1;
+.selling-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #4c8163;
+    font-weight: bold;
+  }
+  
+  .selling-cards {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .selling-card {
+    position: relative;
+    width: 300px;
+    height: 330px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .card-1 {
+    background-image: url("/src/assets/images/selling/2025-04-12_22h17_39.png");
+  }
+  
+  .card-2 {
+    background-image: url("/src/assets/images/selling/2025-04-12_22h25_44.png");
+  }
+  
+  .card-3 {
+    background-image: url("/src/assets/images/selling/2025-04-12_22h29_20.png");
+  }
+  
+  .shop-btn {
+    background-color: #4c8163;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  

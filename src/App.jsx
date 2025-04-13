@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Title from "./components/Title";
 import TopBanner from "./components/TopBanner";
+import Selling from "./components/Selling";
+
 
 export default function App() {
 	return(<>
@@ -10,5 +12,6 @@ export default function App() {
 		<Header />
     <Hero /> 
 	<CategoriesSection />
+	<Selling />
 	</>);
 }
