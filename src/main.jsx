@@ -7,7 +7,7 @@ import { StrictMode } from "react";
 
 createRoot(document.getElementById("root")).render(
   <PlantsProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/Plant_Shop">
       <App />
     </BrowserRouter>
   </PlantsProvider>
